@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guía - Fajas Colombianas</title>
+  <title>Guia Colombian Silhouette</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,16 +12,40 @@
       background: #FFF6D7; /* Fondo suave */
       color: #333;
     }
+
     header {
-      background: #F9D5C9; /* Encabezado */
+      background: #F9D5C9;
       color: #333;
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 1.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
     }
+
+    header img {
+      height: 80px;
+    }
+
+    header .titulo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+
     header h1 {
       margin: 0;
       font-size: 2rem;
     }
+
+    header p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
     section {
       padding: 2rem;
       max-width: 900px;
@@ -31,40 +55,48 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+
     h2 {
-      color: #FBC7C1; /* Color de títulos */
+      color: #FBC7C1;
       margin-top: 0;
     }
+
     ul {
       padding-left: 1.2rem;
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
     }
+
     table th, table td {
       border: 1px solid #ccc;
       padding: 0.8rem;
       text-align: center;
     }
+
     table th {
-      background: #E9F1D7; /* Fondo de cabecera de tabla */
+      background: #E9F1D7;
     }
+
     .contacto {
       text-align: center;
       margin-top: 2rem;
     }
+
     .boton {
       display: inline-block;
       padding: 1rem 2rem;
-      background: #FBC7C1; /* Color botón */
+      background: #FBC7C1;
       color: #333;
       text-decoration: none;
       font-weight: bold;
       border-radius: 8px;
       transition: background 0.3s;
     }
+
     .boton:hover {
       background: #FDD6BA;
     }
@@ -73,8 +105,12 @@
 <body>
 
   <header>
-    <h1>Guía de Fajas Colombianas</h1>
-    <p>Todo lo que necesitas saber en un solo lugar</p>
+    <img src="logo1.png" alt="Logo Izquierda">
+    <div class="titulo-container">
+      <h1>Guia Colombian Silhouette</h1>
+      <p>By HGL Enterprise</p>
+    </div>
+    <img src="logo2.png" alt="Logo Derecha">
   </header>
 
   <section>
@@ -87,7 +123,7 @@
       <li>Consulta nuestra tabla de tallas antes de comprar.</li>
     </ul>
 
-    <!-- Tabla de tallas -->
+    <!-- Tabla de tallas: Edita según tus datos -->
     <table>
       <thead>
         <tr>
@@ -155,5 +191,7 @@
 
 </body>
 </html>
+
+
 
 
