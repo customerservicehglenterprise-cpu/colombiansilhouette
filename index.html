@@ -9,31 +9,33 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #FFF6D7; /* Fondo suave */
+      background: #FFF6D7;
       color: #333;
     }
 
+    /* Header */
     header {
       background: #F9D5C9;
-      color: #333;
-      text-align: center;
       padding: 1.5rem 1rem;
+    }
+
+    .header-container {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 1rem;
+      gap: 20px;
       flex-wrap: wrap;
+    }
+
+    .titulo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; /* subtitulo alineado a la derecha */
+      text-align: right;
     }
 
     header img {
       height: 80px;
-    }
-
-    header .titulo-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
     }
 
     header h1 {
@@ -46,6 +48,7 @@
       font-size: 1rem;
     }
 
+    /* Secciones */
     section {
       padding: 2rem;
       max-width: 900px;
@@ -104,15 +107,19 @@
 </head>
 <body>
 
+  <!-- Header con logos y titulo -->
   <header>
-    <img src="logo1.png" alt="Logo Izquierda">
-    <div class="titulo-container">
-      <h1>Guia Colombian Silhouette</h1>
-      <p>By HGL Enterprise</p>
+    <div class="header-container">
+      <img src="logotipo1.png" alt="Logo Izquierda">
+      <div class="titulo-container">
+        <h1>Guia Colombian Silhouette</h1>
+        <p>By HGL Enterprise</p>
+      </div>
+      <img src="logotipo2.png" alt="Logo Derecha">
     </div>
-    <img src="logo2.png" alt="Logo Derecha">
   </header>
 
+  <!-- Sección: Cómo tomar medidas -->
   <section>
     <h2>📏 Cómo tomar tus medidas</h2>
     <p>Sigue estos pasos para asegurarte de elegir la talla correcta:</p>
@@ -123,7 +130,7 @@
       <li>Consulta nuestra tabla de tallas antes de comprar.</li>
     </ul>
 
-    <!-- Tabla de tallas: Edita según tus datos -->
+    <!-- Tabla de tallas: editable -->
     <table>
       <thead>
         <tr>
@@ -164,6 +171,7 @@
     <img src="https://via.placeholder.com/600x300?text=Gu%C3%ADa+de+Medidas" alt="Guía de medidas" style="width:100%;border-radius:8px;margin-top:1rem;">
   </section>
 
+  <!-- Sección: Características de los productos -->
   <section>
     <h2>👗 Características de nuestros productos</h2>
     <ul>
@@ -174,6 +182,7 @@
     </ul>
   </section>
 
+  <!-- Sección: Características de las telas -->
   <section>
     <h2>🧵 Características de las telas</h2>
     <ul>
@@ -184,13 +193,15 @@
     </ul>
   </section>
 
+  <!-- Sección de contacto -->
   <section class="contacto">
     <h2>📲 Contáctanos</h2>
-    <a href="https://wa.me/573001112233" target="_blank" class="boton">Escríbenos por WhatsApp</a>
+    <a href="https://wa.me/971507813124" target="_blank" class="boton">Escríbenos por WhatsApp</a>
   </section>
 
 </body>
 </html>
+
 
 
 
