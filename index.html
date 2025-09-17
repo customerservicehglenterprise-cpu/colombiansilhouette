@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guía - Colombian Silhouette</title>
+  <title>Guía - Fajas Colombianas</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background:  #FBC7C1;
+      background: #FFF6D7; /* Fondo suave */
       color: #333;
     }
     header {
-      background: #CCDB95;
-      color: white;
+      background: #F9D5C9; /* Encabezado */
+      color: #333;
       text-align: center;
       padding: 2rem 1rem;
     }
@@ -32,11 +32,24 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     h2 {
-      color: #8B1E3F;
+      color: #FBC7C1; /* Color de títulos */
       margin-top: 0;
     }
     ul {
       padding-left: 1.2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 0.8rem;
+      text-align: center;
+    }
+    table th {
+      background: #E9F1D7; /* Fondo de cabecera de tabla */
     }
     .contacto {
       text-align: center;
@@ -45,15 +58,15 @@
     .boton {
       display: inline-block;
       padding: 1rem 2rem;
-      background: #8B1E3F;
-      color: white;
+      background: #FBC7C1; /* Color botón */
+      color: #333;
       text-decoration: none;
       font-weight: bold;
       border-radius: 8px;
       transition: background 0.3s;
     }
     .boton:hover {
-      background: #F9D5C9;
+      background: #FDD6BA;
     }
   </style>
 </head>
@@ -73,7 +86,45 @@
       <li>Utiliza una cinta métrica flexible y ajustada al cuerpo.</li>
       <li>Consulta nuestra tabla de tallas antes de comprar.</li>
     </ul>
-    <!-- Aquí podrías insertar una imagen -->
+
+    <!-- Tabla de tallas -->
+    <table>
+      <thead>
+        <tr>
+          <th>Talla</th>
+          <th>Cintura (cm)</th>
+          <th>Cadera (cm)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>XS</td>
+          <td>58 - 62</td>
+          <td>84 - 88</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td>63 - 67</td>
+          <td>89 - 93</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>68 - 72</td>
+          <td>94 - 98</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td>73 - 77</td>
+          <td>99 - 103</td>
+        </tr>
+        <tr>
+          <td>XL</td>
+          <td>78 - 82</td>
+          <td>104 - 108</td>
+        </tr>
+      </tbody>
+    </table>
+
     <img src="https://via.placeholder.com/600x300?text=Gu%C3%ADa+de+Medidas" alt="Guía de medidas" style="width:100%;border-radius:8px;margin-top:1rem;">
   </section>
 
@@ -104,3 +155,5 @@
 
 </body>
 </html>
+
+
